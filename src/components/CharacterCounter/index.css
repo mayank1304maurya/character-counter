@@ -1,0 +1,75 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 40px;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffc533;
+  height: 70vh;
+  overflow: hidden;
+  width: 50%;
+  padding: 20px;
+}
+
+.heading {
+  color: #334155;
+  font-size: 32px;
+  font-family: 'Roboto';
+  max-width: 400px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+.container {
+  background-color: #ffbf1f;
+  padding: 20px;
+}
+.second-container {
+  background-color: #0f172a;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.header {
+  color: #ffc533;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.add-button {
+  color: #272c47;
+  background-color: #ffbf1f;
+  padding: 12px;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.inputName {
+  padding: 8px;
+  margin-right: 20px;
+  width: 200px;
+}
+.kr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-container {
+  list-style-type: none;
+}
+
+.list-element {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #0f172a;
+}
